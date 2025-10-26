@@ -9,4 +9,6 @@ class ArticleAdmin(admin.ModelAdmin):
     fields= ('title', 'content', 'author', 'created_at', 'updated_at')
     readonly_fields = ('created_at', 'updated_at')
 
+
+
 # Register your models here.
